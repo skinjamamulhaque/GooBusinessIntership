@@ -16,3 +16,159 @@
   background-color: red;
 }
 
+.container{
+  height: 100%;
+}
+
+.heading{
+  width: 80%;
+  text-align: center;
+  font-size: 30px;
+  padding: 10px;
+  margin: auto;
+  text-transform: capitalize;
+  border-bottom: 1px solid black;
+}
+
+#staticWeb, #dynamicWeb, #groceryweb, #dropshippingweb {
+  height: 100vh;
+  width: 100%;
+  /* background-color: red; */
+  position: relative;
+}
+
+.productDetails{
+  height: 100%;
+  width: 80%;
+  margin: auto;
+  display: none;
+  /* background-color: blueviolet; */
+}
+
+.productContainer{
+  position: relative;
+  height: 80vh;
+  /* background-color: blue; */
+  padding: 10px 30px;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  gap: 10px;
+}
+
+.productImg{
+  position: relative;
+  height: 100%;
+  width: 50%;
+}
+
+.staticImg{
+  border-radius: 5px;
+  height: 100%;
+  width: 100%;
+  /* object-fit: contain; */
+   
+}
+
+.productDesc{
+  height: 100%;
+  /* border: 1px solid black; */
+  width: 50%;
+  /* background-color: brown; */
+}
+
+
+.table{
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+
+
+th, td{
+  border: 2px solid white;
+  padding: 30px;
+  text-align: center;
+  text-transform: capitalize; 
+}
+
+.tableInfo{
+  text-align: center;
+}
+
+.btnGrp{
+  display: flex;
+  gap: 30px;
+}
+
+.orderBtn{
+  width: 50%;
+  height: 35px;
+  padding: 20px ;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 7px;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: bisque;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
+
+.userDetailsForm{
+  position: relative;
+  height: 70vh;
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+.userForm{
+  height: 60vh;
+  width: 95%;
+  margin: auto;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.field{
+  /* border: 1px solid goldenrod; */
+  height: 30px;
+  width: 70%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input, textarea{
+  height: 100%;
+  width: 50%;
+  padding: 2px;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+label{
+  font-size: 25px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+
+
