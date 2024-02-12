@@ -1,106 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Products</title>
-  <link rel="shortcut icon" href="/static/img/Goo%20Businesses.png" type="image/png" />
-  <link rel="stylesheet" href="mystyle.css">
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="utils.css" />
-  <link rel="stylesheet" href="responsive.css" />
-</head>
-<body>
-  <header>
-    <nav>
-      <div class="logo">
-        <img src="Goo Businesses (1).png" height="73px" />
-      </div>
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/about">About</a></li>
-        <li><a href="/contact">Contact</a></li>
-        <li><a href="/whyus">Why us?</a></li>
-      </ul>
-      <form class="form" action="/searching" method="post">
-        <div class="search">
-          <input class="form-ele1" type="text" id="searchbarID" name="seachbar" placeholder="Search here..."
-            width="20vw" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products</title>
+    <link
+      rel="shortcut icon"
+      href="/static/img/Goo%20Businesses.png"
+      type="image/png"
+    />
+    <link rel="stylesheet" href="mystyle.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="utils.css" />
+    <link rel="stylesheet" href="responsive.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <img src="Goo Businesses (1).png" height="73px" />
         </div>
-        <div class="btn">
-          <button class="bttn" type="submit">Search</button>
-        </div>
-      </form>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/contact">Contact</a></li>
+          <li><a href="/whyus">Why us?</a></li>
+        </ul>
+        <form class="form" action="/searching" method="post">
+          <div class="search">
+            <input
+              class="form-ele1"
+              type="text"
+              id="searchbarID"
+              name="seachbar"
+              placeholder="Search here..."
+              width="20vw"
+            />
+          </div>
+          <div class="btn">
+            <button class="bttn" type="submit">Search</button>
+          </div>
+        </form>
 
-      <a href="/searching">
-        <div class="navallproduct">All Services</div>
-      </a>
-    </nav>
+        <a href="/searching">
+          <div class="navallproduct">All Services</div>
+        </a>
+      </nav>
 
-    <a href="/freetrail" class="freeTrl bblink">Get Your<br />Free Trial<br />up to $30</a>
-  </header>
+      <a href="/freetrail" class="freeTrl bblink"
+        >Get Your<br />Free Trial<br />up to $30</a
+      >
+    </header>
 
-  <main class="container">
-    <h3 class="heading">Get your best price for your requeired products</h3>
-    <div id="staticWeb">
-      <div class="productContainer">
-        <div class="productImg">
-          <img src="./staticweb.jpg" alt="" class="staticImg">
-        </div>
-        <div class="productDesc">
-          <div class="priceCategory">
-            <!-- <div class="membership">
+    <main class="container">
+      <h3 class="heading">Get your best price for your requeired products</h3>
+      <div id="staticWeb">
+        <div class="productContainer">
+          <div class="productImg">
+            <img src="./staticweb.jpg" alt="" class="staticImg" />
+          </div>
+          <div class="productDesc">
+            <div class="priceCategory">
+              <!-- <div class="membership">
               <div class="silver">Silver</div>
               <div class="gold">Gold</div>
               <div class="diamond">Diamond</div>             
             </div> -->
 
-            <table class="table">
-              <tr class="tableRow">
-                <th class="tableHead">Silver</th>
-                <th class="tableHead">Gold</th>
-                <th class="tableHead">Diamond</th>
-              </tr>
+              <table class="table">
+                <tr class="tableRow">
+                  <th class="tableHead">Silver</th>
+                  <th class="tableHead">Gold</th>
+                  <th class="tableHead">Diamond</th>
+                </tr>
 
-              <tr class="tableRow">
-                <td class="tableInfo">100</td>
-                <td class="tableInfo">100</td>
-                <td class="tableInfo">100</td>
-              </tr>
+                <tr class="tableRow">
+                  <td class="tableInfo">100</td>
+                  <td class="tableInfo">100</td>
+                  <td class="tableInfo">100</td>
+                </tr>
 
-              <tr class="tableRow">
-                <td class="tableInfo">7 days delivery</td>
-                <td class="tableInfo">10 days delivery</td>
-                <td class="tableInfo">2 days delivery</td>
-              </tr>
+                <tr class="tableRow">
+                  <td class="tableInfo">7 days delivery</td>
+                  <td class="tableInfo">10 days delivery</td>
+                  <td class="tableInfo">2 days delivery</td>
+                </tr>
 
-              <tr class="tableRow">
-                <td class="tableInfo">3 Page</td>
-                <td class="tableInfo">5 page</td>
-                <td class="tableInfo">unlimited</td>
-              </tr>
+                <tr class="tableRow">
+                  <td class="tableInfo">3 Page</td>
+                  <td class="tableInfo">5 page</td>
+                  <td class="tableInfo">unlimited</td>
+                </tr>
 
-              <tr class="tableRow">
-                <td class="tableInfo">content upload, necessary plugin</td>
-                <td class="tableInfo">SEO, responsive, content upload,</td>
-                <td class="tableInfo">SEO, responsive, <br>content upload, necessary plugin</td>
-              </tr>
-              
-            </table>
-            <div class="btnGrp">
-             <button type="submit" class="orderBtn" id="detailsBtn"><a href="#productDetails">View Details</a> </button>
-            <button type="submit" class="orderBtn">Order Now</button>
+                <tr class="tableRow">
+                  <td class="tableInfo">content upload, necessary plugin</td>
+                  <td class="tableInfo">SEO, responsive, content upload,</td>
+                  <td class="tableInfo">
+                    SEO, responsive, <br />content upload, necessary plugin
+                  </td>
+                </tr>
+              </table>
+              <div class="btnGrp">
+                <button type="submit" class="orderBtn" id="detailsBtn">
+                  <a href="#productDetails1">View Details</a>
+                </button>
+                <button type="submit" class="orderBtn">Order Now</button>
+              </div>
             </div>
-
-           
           </div>
         </div>
-        
-
       </div>
-    </div>
-    <div class="productDetails" id="productDetails" >
-      <div class="detiles"><div class="dtlsLB">Details:</div><pre class="descText" style="color: #5f6368;">For a busy entrepreneur like you, time is gold. You may not waste your time on grunt work;
+      <div class="productDetails" id="productDetails1 staticproduct">
+        <div class="detiles">
+          <div class="dtlsLB">Details:</div>
+          <pre class="descText" style="color: #5f6368">
+For a busy entrepreneur like you, time is gold. You may not waste your time on grunt work;
         you have better things to do than spend hours typing!
       
       With this service you will get:
@@ -150,65 +164,72 @@
          
          ☆ Be sure to enter your Requirements / Instructions in the text area
       
-       ◉ Custom package is available with this service must check once.</pre></div>
-    </div>
-
-    <div id="dynamicWeb">
-      <div class="productContainer">
-        <div class="productImg">
-          <img src="./dynamicweb.jpg" alt="" class="staticImg">
+       ◉ Custom package is available with this service must check once.</pre
+          >
         </div>
-        <div class="productDesc">
-          <div class="priceCategory">
-            <!-- <div class="membership">
+      </div>
+
+      <div id="dynamicWeb">
+        <div class="productContainer">
+          <div class="productImg">
+            <img src="./dynamicweb.jpg" alt="" class="staticImg" />
+          </div>
+          <div class="productDesc">
+            <div class="priceCategory">
+              <!-- <div class="membership">
               <div class="silver">Silver</div>
               <div class="gold">Gold</div>
               <div class="diamond">Diamond</div>             
             </div> -->
 
-            <table class="table">
-              <tr class="tableRow">
-                <th class="tableHead">Silver</th>
-                <th class="tableHead">Gold</th>
-                <th class="tableHead">Diamond</th>
-              </tr>
+              <table class="table">
+                <tr class="tableRow">
+                  <th class="tableHead">Silver</th>
+                  <th class="tableHead">Gold</th>
+                  <th class="tableHead">Diamond</th>
+                </tr>
 
-              <tr class="tableRow">
-                <td class="tableInfo">100</td>
-                <td class="tableInfo">100</td>
-                <td class="tableInfo">100</td>
-              </tr>
+                <tr class="tableRow">
+                  <td class="tableInfo">100</td>
+                  <td class="tableInfo">100</td>
+                  <td class="tableInfo">100</td>
+                </tr>
 
-              <tr class="tableRow">
-                <td class="tableInfo">7 days delivery</td>
-                <td class="tableInfo">10 days delivery</td>
-                <td class="tableInfo">2 days delivery</td>
-              </tr>
+                <tr class="tableRow">
+                  <td class="tableInfo">7 days delivery</td>
+                  <td class="tableInfo">10 days delivery</td>
+                  <td class="tableInfo">2 days delivery</td>
+                </tr>
 
-              <tr class="tableRow">
-                <td class="tableInfo">3 Page</td>
-                <td class="tableInfo">5 page</td>
-                <td class="tableInfo">unlimited</td>
-              </tr>
+                <tr class="tableRow">
+                  <td class="tableInfo">3 Page</td>
+                  <td class="tableInfo">5 page</td>
+                  <td class="tableInfo">unlimited</td>
+                </tr>
 
-              <tr class="tableRow">
-                <td class="tableInfo">content upload, necessary plugin</td>
-                <td class="tableInfo">SEO, responsive, content upload,</td>
-                <td class="tableInfo">SEO, responsive, <br>content upload, necessary plugin</td>
-              </tr>
-              
-            </table>
-            <div class="btnGrp">
-              <button type="submit" class="orderBtn" id="detailsBtn"><a href="#productDetails">View Details</a> </button>
-              <button type="submit" class="orderBtn">Order Now</button>
+                <tr class="tableRow">
+                  <td class="tableInfo">content upload, necessary plugin</td>
+                  <td class="tableInfo">SEO, responsive, content upload,</td>
+                  <td class="tableInfo">
+                    SEO, responsive, <br />content upload, necessary plugin
+                  </td>
+                </tr>
+              </table>
+              <div class="btnGrp">
+                <button type="submit" class="orderBtn" id="detailsBtn">
+                  <a href="#productDetails2">View Details</a>
+                </button>
+                <button type="submit" class="orderBtn">Order Now</button>
+              </div>
             </div>
           </div>
         </div>
-
       </div>
-    </div>
-    <div class="productDetails" id="productDetails" >
-      <div class="detiles"><div class="dtlsLB">Details:</div><pre class="descText" style="color: #5f6368;">For a busy entrepreneur like you, time is gold. You may not waste your time on grunt work;
+      <div class="productDetails" id="productDetails2 dynamicproduct">
+        <div class="detiles">
+          <div class="dtlsLB">Details:</div>
+          <pre class="descText" style="color: #5f6368">
+For a busy entrepreneur like you, time is gold. You may not waste your time on grunt work;
         you have better things to do than spend hours typing!
       
       With this service you will get:
@@ -258,65 +279,72 @@
          
          ☆ Be sure to enter your Requirements / Instructions in the text area
       
-       ◉ Custom package is available with this service must check once.</pre></div>
-    </div>
-
-    <div id="groceryweb">
-      <div class="productContainer">
-        <div class="productImg">
-          <img src="./groceryweb.jpg" alt="" class="staticImg">
+       ◉ Custom package is available with this service must check once.</pre
+          >
         </div>
-        <div class="productDesc">
-          <div class="priceCategory">
-            <!-- <div class="membership">
+      </div>
+
+      <div id="groceryweb">
+        <div class="productContainer">
+          <div class="productImg">
+            <img src="./groceryweb.jpg" alt="" class="staticImg" />
+          </div>
+          <div class="productDesc">
+            <div class="priceCategory">
+              <!-- <div class="membership">
               <div class="silver">Silver</div>
               <div class="gold">Gold</div>
               <div class="diamond">Diamond</div>             
             </div> -->
 
-            <table class="table">
-              <tr class="tableRow">
-                <th class="tableHead">Silver</th>
-                <th class="tableHead">Gold</th>
-                <th class="tableHead">Diamond</th>
-              </tr>
+              <table class="table">
+                <tr class="tableRow">
+                  <th class="tableHead">Silver</th>
+                  <th class="tableHead">Gold</th>
+                  <th class="tableHead">Diamond</th>
+                </tr>
 
-              <tr class="tableRow">
-                <td class="tableInfo">100</td>
-                <td class="tableInfo">100</td>
-                <td class="tableInfo">100</td>
-              </tr>
+                <tr class="tableRow">
+                  <td class="tableInfo">100</td>
+                  <td class="tableInfo">100</td>
+                  <td class="tableInfo">100</td>
+                </tr>
 
-              <tr class="tableRow">
-                <td class="tableInfo">7 days delivery</td>
-                <td class="tableInfo">10 days delivery</td>
-                <td class="tableInfo">2 days delivery</td>
-              </tr>
+                <tr class="tableRow">
+                  <td class="tableInfo">7 days delivery</td>
+                  <td class="tableInfo">10 days delivery</td>
+                  <td class="tableInfo">2 days delivery</td>
+                </tr>
 
-              <tr class="tableRow">
-                <td class="tableInfo">3 Page</td>
-                <td class="tableInfo">5 page</td>
-                <td class="tableInfo">unlimited</td>
-              </tr>
+                <tr class="tableRow">
+                  <td class="tableInfo">3 Page</td>
+                  <td class="tableInfo">5 page</td>
+                  <td class="tableInfo">unlimited</td>
+                </tr>
 
-              <tr class="tableRow">
-                <td class="tableInfo">content upload, necessary plugin</td>
-                <td class="tableInfo">SEO, responsive, content upload,</td>
-                <td class="tableInfo">SEO, responsive, <br>content upload, necessary plugin</td>
-              </tr>
-              
-            </table>
-            <div class="btnGrp">
-              <button type="submit" class="orderBtn" id="detailsBtn"><a href="#productDetails">View Details</a> </button>
-              <button type="submit" class="orderBtn">Order Now</button>
+                <tr class="tableRow">
+                  <td class="tableInfo">content upload, necessary plugin</td>
+                  <td class="tableInfo">SEO, responsive, content upload,</td>
+                  <td class="tableInfo">
+                    SEO, responsive, <br />content upload, necessary plugin
+                  </td>
+                </tr>
+              </table>
+              <div class="btnGrp">
+                <button type="submit" class="orderBtn" id="detailsBtn">
+                  <a href="#productDetails3">View Details</a>
+                </button>
+                <button type="submit" class="orderBtn">Order Now</button>
+              </div>
             </div>
           </div>
         </div>
-
       </div>
-    </div>
-    <div class="productDetails" id="productDetails" >
-      <div class="detiles"><div class="dtlsLB">Details:</div><pre class="descText" style="color: #5f6368;">For a busy entrepreneur like you, time is gold. You may not waste your time on grunt work;
+      <div class="productDetails" id="productDetails3">
+        <div class="detiles">
+          <div class="dtlsLB">Details:</div>
+          <pre class="descText" style="color: #5f6368">
+For a busy entrepreneur like you, time is gold. You may not waste your time on grunt work;
         you have better things to do than spend hours typing!
       
       With this service you will get:
@@ -366,157 +394,188 @@
          
          ☆ Be sure to enter your Requirements / Instructions in the text area
       
-       ◉ Custom package is available with this service must check once.</pre></div>
-    </div>
-
-    <div id="dropshippingweb">
-      <div class="productContainer">
-        <div class="productImg">
-          <img src="./dropshiping wesite.webp" alt="" class="staticImg">
+       ◉ Custom package is available with this service must check once.</pre
+          >
         </div>
-        <div class="productDesc">
-          <div class="priceCategory">
-            <!-- <div class="membership">
+      </div>
+
+      <div id="dropshippingweb">
+        <div class="productContainer">
+          <div class="productImg">
+            <img src="./dropshiping wesite.webp" alt="" class="staticImg" />
+          </div>
+          <div class="productDesc">
+            <div class="priceCategory">
+              <!-- <div class="membership">
               <div class="silver">Silver</div>
               <div class="gold">Gold</div>
               <div class="diamond">Diamond</div>             
             </div> -->
 
-            <table class="table">
-              <tr class="tableRow">
-                <th class="tableHead">Silver</th>
-                <th class="tableHead">Gold</th>
-                <th class="tableHead">Diamond</th>
-              </tr>
+              <table class="table">
+                <tr class="tableRow">
+                  <th class="tableHead">Silver</th>
+                  <th class="tableHead">Gold</th>
+                  <th class="tableHead">Diamond</th>
+                </tr>
 
-              <tr class="tableRow">
-                <td class="tableInfo">100</td>
-                <td class="tableInfo">100</td>
-                <td class="tableInfo">100</td>
-              </tr>
+                <tr class="tableRow">
+                  <td class="tableInfo">100</td>
+                  <td class="tableInfo">100</td>
+                  <td class="tableInfo">100</td>
+                </tr>
 
-              <tr class="tableRow">
-                <td class="tableInfo">7 days delivery</td>
-                <td class="tableInfo">10 days delivery</td>
-                <td class="tableInfo">2 days delivery</td>
-              </tr>
+                <tr class="tableRow">
+                  <td class="tableInfo">7 days delivery</td>
+                  <td class="tableInfo">10 days delivery</td>
+                  <td class="tableInfo">2 days delivery</td>
+                </tr>
 
-              <tr class="tableRow">
-                <td class="tableInfo">3 Page</td>
-                <td class="tableInfo">5 page</td>
-                <td class="tableInfo">unlimited</td>
-              </tr>
+                <tr class="tableRow">
+                  <td class="tableInfo">3 Page</td>
+                  <td class="tableInfo">5 page</td>
+                  <td class="tableInfo">unlimited</td>
+                </tr>
 
-              <tr class="tableRow">
-                <td class="tableInfo">content upload, necessary plugin</td>
-                <td class="tableInfo">SEO, responsive, content upload,</td>
-                <td class="tableInfo">SEO, responsive, <br>content upload, necessary plugin</td>
-              </tr>
-              
-            </table>
-            <div class="btnGrp">
-              <button type="submit" class="orderBtn" id="detailsBtn"><a href="#productDetails">View Details</a> </button>
-              <button type="submit" class="orderBtn">Order Now</button>
+                <tr class="tableRow">
+                  <td class="tableInfo">content upload, necessary plugin</td>
+                  <td class="tableInfo">SEO, responsive, content upload,</td>
+                  <td class="tableInfo">
+                    SEO, responsive, <br />content upload, necessary plugin
+                  </td>
+                </tr>
+              </table>
+              <div class="btnGrp">
+                <button type="submit" class="orderBtn" id="detailsBtn">
+                  <a href="#productDetails4">View Details</a>
+                </button>
+                <button type="submit" class="orderBtn">Order Now</button>
+              </div>
             </div>
+          </div>
+        </div>
+      </div>
+      <div class="productDetails" id="productDetails4">
+        <div class="detiles">
+          <div class="dtlsLB">Details:</div>
+          <pre class="descText" style="color: #5f6368">
+For a busy entrepreneur like you, time is gold. You may not waste your time on grunt work;
+        you have better things to do than spend hours typing!
+      
+      With this service you will get:
+        Owner, CEO, CFO, COO, CMO, CTO, CIO, VP and any type of business person&#x27;s information
+        
+         Person Information
+        ✔ First Name
+        ✔ Last Name
+        ✔ Job role
+        ✔ Personal Email (100% verified)
+        ✔ Linkedin Profile
+        ✔ Company Name
+        ✔ Website
+        ✔ Social media Link
+      
+        Company Information
+           ✔ Company Name
+              ✔ Website
+        ✔ Location
+        ✔ Company Headquarter
+        ✔ Company Linkedin Profile
+        ✔ Phone Number
+        ✔ Mailing/Physical Address:
+        ✔ Business Email (100% Verified)
+        ✔ Industry type
+        ✔ Employee size
+        ✔ Revenue
+        ✔ Social media Link
+          and many more etc...
+            as per requirements
+      
+            ☆ Service Include ☆ 
+        ☆ B2B lead generation
+        ☆ Database Building
+        ☆ B2B email list building
+        ☆ Prospect list building
+        ☆ Email list building
+        ☆ Web research
+        ☆ Data scraping
+        ☆ Data entry
+        ☆ Linkedin lead generation By Linkedin sales navigator
+          and many more etc...
+      
+        ☆ Formatting &amp; Clean up
+        ☆ 100% Qualified leads
+        ☆ 100% Satisfied guarantee
+         
+         ☆ Be sure to enter your Requirements / Instructions in the text area
+      
+       ◉ Custom package is available with this service must check once.</pre
+          >
+        </div>
+      </div>
+
+      <div class="userDetailsForm">
+        <h2 class="heading">User Details</h2>
+        <form class="userForm">
+          <div class="Name field">
+            <label for="">Name</label>
+            <input type="name" placeholder="Full Name" />
+          </div>
+          <div class="Email field">
+            <label for="">Email</label>
+            <input type="email" placeholder="Email" />
+          </div>
+          <div class="Phone field">
+            <label for="">Phone</label>
+            <input type="number" placeholder="Mobile Number" />
+          </div>
+          <div class="Massage field">
+            <label for="Massage">Massage</label>
+            <textarea
+              name="Massage"
+              id=""
+              placeholder="Write Your Enquiry"
+            ></textarea>
+          </div>
+
+          <button
+            type="submit"
+            class="orderBtn"
+            style="width: 200px; padding: 22px; margin-top: 30px"
+          >
+            Send
+          </button>
+        </form>
+      </div>
+    </main>
+
+    <script>
+
+      let detailsBtn = document.querySelectorAll("#detailsBtn");
+      let detsilsDiv = document.querySelectorAll(".productDetails");
+
+      detailsBtn.forEach(function (btn) {
+        btn.addEventListener("click", function (elem) {
+         
+          console.log("clicked");
+
+          if (btn === detailsBtn[0]) {
+            detsilsDiv[0].style.display = "block";
             
-          </div>
-        </div>
 
-      </div>
-    </div>
-    <div class="productDetails" id="productDetails" >
-      <div class="detiles"><div class="dtlsLB">Details:</div><pre class="descText" style="color: #5f6368;">For a busy entrepreneur like you, time is gold. You may not waste your time on grunt work;
-        you have better things to do than spend hours typing!
-      
-      With this service you will get:
-        Owner, CEO, CFO, COO, CMO, CTO, CIO, VP and any type of business person&#x27;s information
-        
-         Person Information
-        ✔ First Name
-        ✔ Last Name
-        ✔ Job role
-        ✔ Personal Email (100% verified)
-        ✔ Linkedin Profile
-        ✔ Company Name
-        ✔ Website
-        ✔ Social media Link
-      
-        Company Information
-           ✔ Company Name
-              ✔ Website
-        ✔ Location
-        ✔ Company Headquarter
-        ✔ Company Linkedin Profile
-        ✔ Phone Number
-        ✔ Mailing/Physical Address:
-        ✔ Business Email (100% Verified)
-        ✔ Industry type
-        ✔ Employee size
-        ✔ Revenue
-        ✔ Social media Link
-          and many more etc...
-            as per requirements
-      
-            ☆ Service Include ☆ 
-        ☆ B2B lead generation
-        ☆ Database Building
-        ☆ B2B email list building
-        ☆ Prospect list building
-        ☆ Email list building
-        ☆ Web research
-        ☆ Data scraping
-        ☆ Data entry
-        ☆ Linkedin lead generation By Linkedin sales navigator
-          and many more etc...
-      
-        ☆ Formatting &amp; Clean up
-        ☆ 100% Qualified leads
-        ☆ 100% Satisfied guarantee
-         
-         ☆ Be sure to enter your Requirements / Instructions in the text area
-      
-       ◉ Custom package is available with this service must check once.</pre></div>
-    </div>
+          } else if (btn == detailsBtn[1]) {
+            detsilsDiv[1].style.display = "block";
+            
 
-    <div class="userDetailsForm">
-      <h2 class="heading">User Details</h2>
-      <form class="userForm">
-        <div class="Name field">
-          <label for="">Name</label>
-          <input type="name" placeholder="Full Name">
-        </div>
-        <div class="Email field">
-          <label for="">Email</label>
-          <input type="email" placeholder="Email">
-        </div>
-        <div class="Phone field">
-          <label for="">Phone</label>
-          <input type="number" placeholder="Mobile Number">
-        </div>
-        <div class="Massage field">
-          <label for="Massage">Massage</label>
-          <textarea name="Massage" id="" placeholder="Write Your Enquiry"></textarea>
-        </div>
+          } else if (btn == detailsBtn[2]) {
+            detsilsDiv[2].style.display = "block";
 
-        <button type="submit" class="orderBtn" style="width: 200px; padding: 22px; margin-top: 30px;">Send</button>
-    
-        
-      </form>
-    </div>
-    
-  </main>
-  
-  <script>
+            
+          } else if (btn == detailsBtn[3]) {
+            detsilsDiv[3].style.display = "block";}
+        });
 
-    let detailsBtn = document.querySelectorAll("#detailsBtn");
-    let detsilsDiv = document.querySelectorAll(".productDetails");
-
-    detailsBtn.addEventListener('click',function(){
-      console.log('hfjksahfjaf');
-      detsilsDiv.style.display = 'block';
-    },false);
-    
-
-  </script>
-</body>
+      });
+    </script>
+  </body>
 </html>
